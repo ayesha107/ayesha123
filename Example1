@@ -17,7 +17,6 @@ int main() {
   printf("Prime numbers between %d and %d are: ", n1, n2);
   for (i = n1 + 1; i < n2; ++i) {
 
-    // flag will be equal to 1 if i is prime
     flag = checkPrimeNumber(i);
 
     if (flag == 1) {
@@ -42,3 +41,4 @@ int checkPrimeNumber(int n) {
 
   return flag;
 }
+
